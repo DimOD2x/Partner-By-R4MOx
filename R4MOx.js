@@ -35,7 +35,7 @@ if(vex.channel.type === "dm"){
 if(vex.author.id===client.user.id) return; 
 vex.author.send("")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("872597619564773386")//id bashe reklam
+let hama1 = client.channels.cache.get("877344464690110515")//id bashe reklam
 hama1.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
@@ -53,7 +53,7 @@ ${s2}
   
 })
 
-const channelid = "855230044258828328"//id channele vc
+const channelid = "822826009526796318"//id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
@@ -65,4 +65,4 @@ client.on("ready", () => {
 });
 
 
-client.login("")
+client.login("ODMzNTg4NjYwMDU4MDYyODU4.YH0h7w._RijA_1c64VNXfyn_TQeclmH9Is")
